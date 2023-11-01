@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.portal-btn  {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+}
+
+.portal-btn button {
+    padding: 16px 32px;
+    border: 0;
+    background-color: #000000;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: scale 300ms, background-color 150ms;
+}
+
+.portal-btn button:hover {
+    background-color: #000000;
+    scale: 110%;
+}
+
+.form {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form img {
+    width: 100%;
+    filter: brightness(50%);
+    position: absolute;
+}
+
+.form-container {
+    padding: 64px;
+    border-radius: 16px;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+}
+
+.form-container hr {
+    border: 2px solid #000000;
+    margin-bottom: 24px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.textfield {
+    width: 400px;
+    margin-block: 8px;
+    padding: 12px;
+    border: 1px solid #ABABAB;
+    border-radius: 4px;
+}
+
+.textfield:focus {
+    border: 1px solid transparent;
+    outline: 1.5px solid #918f83;
+}
+
+.remember {
+    margin-top: 8px;
+    accent-color: #FFDD00;
+    text-align: start;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.login-btn {
+    margin-top: 32px;
+    padding: 8px;
+    background-color: #66b5f1;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+}
+
+.login-btn:hover {
+    cursor: pointer;
+    background-color: #000000;
+}
